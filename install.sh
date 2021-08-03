@@ -1,11 +1,11 @@
 #!/bin/bash
 
 termux-wake-unlock
-apt-get update
-apt-get install git -y
-apt-get install cmake -y
-apt update
-apt upgrade -y
+pkg update
+pkg install git -y
+pkg install cmake -y
+pkg update
+pkg upgrade -y
 git clone https://github.com/xmrig/xmrig.git
 cd xmrig
 mkdir build
